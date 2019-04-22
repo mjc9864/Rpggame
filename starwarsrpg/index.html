@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Star Wars Game</title>
+		<link rel="stylesheet" href="assets/css/style.css">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+	</head>
+
+	<body>
+
+		<div class="main-section-title">Star Wars RPG!</div>
+		<div id="main-game-section">
+			<!-- character screen -->
+			<div id="characters-section">
+				<div class="section-title">Select Character</div>
+			</div>
+			
+			<!-- selected character -->
+			<div id="selected-character-section">
+				<div class="section-title">Character</div>
+				<!-- selected character will appear here -->
+				<div id="selected-character"></div>
+			</div>
+
+			<!--  enemies here -->
+			<div id="available-to-attack-section">
+				<div class="section-title">Enemies</div>
+			</div>
+
+			<div class="section-title">Duel Section</div>
+			<div id="fight-section">
+				<button id="attack-button">Attack</button>
+			</div>
+
+			<div id="action">
+				<div class="character-section">
+					<div class="section-title">Opponent</div>
+					<!-- defender will appear. -->
+					<div id="defender"></div>
+				</div>
+			</div>
+
+		</div>
+		<!-- Area for game messages -->
+		<div id="game-message"></div>
+	</body>
+
+</html>
